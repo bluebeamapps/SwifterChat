@@ -42,8 +42,8 @@ class ChatDetailsController : UITableViewController {
         let container = cell.viewWithTag(100)!
         container.layer.cornerRadius = 15
         container.layer.shadowOffset = CGSize(width: indexPath.row % 2 == 0 ? 1 : -1, height: 1)
-        container.layer.shadowOpacity = 0.20
-        container.layer.shadowRadius = 0.5
+        container.layer.shadowOpacity = 0.15
+        container.layer.shadowRadius = 1.0
         container.layer.masksToBounds = false
         
 //        let messageLabel = container.viewWithTag(101) as! UILabel

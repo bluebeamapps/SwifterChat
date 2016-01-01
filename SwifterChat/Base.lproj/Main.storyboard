@@ -202,17 +202,17 @@
                                                     <rect key="frame" x="8" y="8" width="464" height="40"/>
                                                     <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec dictum dui. Sed ac feugiat tortor. Mauris lorem ipsum, vestibulum vitae maximus ut, consectetur sed nisi. Aenean vestibulum tortor odio, ut hendrerit justo consequat et. Nam fermentum bibendum libero ac.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" red="0.34194767475128174" green="0.13493138551712036" blue="0.06183970719575882" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="textColor" red="0.16733719408512115" green="0.16915859282016754" blue="0.18712227046489716" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="102" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="14:45" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I8v-sy-SSB">
                                                     <rect key="frame" x="435" y="47" width="37" height="17"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <color key="textColor" red="0.85145807266235352" green="0.50400656461715698" blue="0.31815981864929199" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="textColor" red="0.58572173120000004" green="0.58570420739999995" blue="0.58571416139999999" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.98940730094909668" green="0.81341433525085449" blue="0.69540399312973022" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="0.96680217981338501" green="0.96677321195602417" blue="0.96678966283798218" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstItem="aOd-R3-Xhb" firstAttribute="leading" secondItem="Gdz-4R-PhQ" secondAttribute="leading" constant="8" id="5hy-C2-qEE"/>
                                                 <constraint firstAttribute="trailing" secondItem="I8v-sy-SSB" secondAttribute="trailing" constant="8" id="KtZ-0W-GEY"/>
@@ -263,7 +263,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.98938095569610596" green="0.81213504076004028" blue="0.69334191083908081" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="0.98347383737564087" green="0.84781908988952637" blue="0.75846076011657715" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstItem="kRj-Ga-rbK" firstAttribute="top" secondItem="FVI-1q-f7M" secondAttribute="bottom" id="DsC-02-hOK"/>
                                                 <constraint firstItem="FVI-1q-f7M" firstAttribute="bottom" secondItem="kRj-Ga-rbK" secondAttribute="top" id="Ea4-oy-Crf"/>
