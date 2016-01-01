@@ -16,7 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        //Set the default tab.
+        let tabController = window!.rootViewController as! UITabBarController
+        
+        tabController.selectedIndex = 1
+        
         return true
     }
 

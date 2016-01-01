@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7877D4661C356516006616E4 /* ContactsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7877D4651C356516006616E4 /* ContactsController.swift */; };
 		7888C9891C336F5800F49694 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7888C9881C336F5800F49694 /* AppDelegate.swift */; };
-		7888C98B1C336F5800F49694 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7888C98A1C336F5800F49694 /* ViewController.swift */; };
 		7888C98E1C336F5800F49694 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7888C98C1C336F5800F49694 /* Main.storyboard */; };
 		7888C9911C336F5800F49694 /* SwifterChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7888C98F1C336F5800F49694 /* SwifterChat.xcdatamodeld */; };
 		7888C9931C336F5800F49694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7888C9921C336F5800F49694 /* Assets.xcassets */; };
 		7888C9961C336F5800F49694 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7888C9941C336F5800F49694 /* LaunchScreen.storyboard */; };
 		7888C9A11C336F5800F49694 /* SwifterChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7888C9A01C336F5800F49694 /* SwifterChatTests.swift */; };
 		7888C9AC1C336F5900F49694 /* SwifterChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7888C9AB1C336F5900F49694 /* SwifterChatUITests.swift */; };
+		7888C9C11C3370DE00F49694 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7888C9C01C3370DE00F49694 /* NetworkClient.swift */; };
+		7888C9C31C3370FF00F49694 /* ChatListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7888C9C21C3370FF00F49694 /* ChatListController.swift */; };
+		7888C9C51C33714400F49694 /* ChatDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7888C9C41C33714400F49694 /* ChatDetailsController.swift */; };
+		7888C9CD1C3376FD00F49694 /* ChatsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7888C9CC1C3376FD00F49694 /* ChatsStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7877D4651C356516006616E4 /* ContactsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsController.swift; sourceTree = "<group>"; };
 		7888C9851C336F5800F49694 /* SwifterChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwifterChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7888C9881C336F5800F49694 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7888C98A1C336F5800F49694 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7888C98D1C336F5800F49694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7888C9901C336F5800F49694 /* SwifterChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwifterChat.xcdatamodel; sourceTree = "<group>"; };
 		7888C9921C336F5800F49694 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		7888C9A71C336F5800F49694 /* SwifterChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwifterChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7888C9AB1C336F5900F49694 /* SwifterChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifterChatUITests.swift; sourceTree = "<group>"; };
 		7888C9AD1C336F5900F49694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7888C9C01C3370DE00F49694 /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		7888C9C21C3370FF00F49694 /* ChatListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListController.swift; sourceTree = "<group>"; };
+		7888C9C41C33714400F49694 /* ChatDetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatDetailsController.swift; sourceTree = "<group>"; };
+		7888C9CC1C3376FD00F49694 /* ChatsStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatsStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +107,10 @@
 		7888C9871C336F5800F49694 /* SwifterChat */ = {
 			isa = PBXGroup;
 			children = (
+				7888C9CB1C3376CF00F49694 /* Store */,
+				7888C9BF1C3370DE00F49694 /* Networking */,
+				7888C9B91C336FB800F49694 /* Controllers */,
 				7888C9881C336F5800F49694 /* AppDelegate.swift */,
-				7888C98A1C336F5800F49694 /* ViewController.swift */,
 				7888C98C1C336F5800F49694 /* Main.storyboard */,
 				7888C9921C336F5800F49694 /* Assets.xcassets */,
 				7888C9941C336F5800F49694 /* LaunchScreen.storyboard */,
@@ -126,6 +136,32 @@
 				7888C9AD1C336F5900F49694 /* Info.plist */,
 			);
 			path = SwifterChatUITests;
+			sourceTree = "<group>";
+		};
+		7888C9B91C336FB800F49694 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7888C9C21C3370FF00F49694 /* ChatListController.swift */,
+				7888C9C41C33714400F49694 /* ChatDetailsController.swift */,
+				7877D4651C356516006616E4 /* ContactsController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7888C9BF1C3370DE00F49694 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				7888C9C01C3370DE00F49694 /* NetworkClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		7888C9CB1C3376CF00F49694 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				7888C9CC1C3376FD00F49694 /* ChatsStore.swift */,
+			);
+			path = Store;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +232,7 @@
 				TargetAttributes = {
 					7888C9841C336F5700F49694 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6YNSXJNYX7;
 					};
 					7888C99B1C336F5800F49694 = {
 						CreatedOnToolsVersion = 7.2;
@@ -259,9 +296,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7888C98B1C336F5800F49694 /* ViewController.swift in Sources */,
+				7877D4661C356516006616E4 /* ContactsController.swift in Sources */,
 				7888C9911C336F5800F49694 /* SwifterChat.xcdatamodeld in Sources */,
 				7888C9891C336F5800F49694 /* AppDelegate.swift in Sources */,
+				7888C9C11C3370DE00F49694 /* NetworkClient.swift in Sources */,
+				7888C9CD1C3376FD00F49694 /* ChatsStore.swift in Sources */,
+				7888C9C51C33714400F49694 /* ChatDetailsController.swift in Sources */,
+				7888C9C31C3370FF00F49694 /* ChatListController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,10 +444,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SwifterChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bluebeamapps.SwifterChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -414,10 +459,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SwifterChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bluebeamapps.SwifterChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -488,6 +537,7 @@
 				7888C9B21C336F5900F49694 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7888C9B31C336F5900F49694 /* Build configuration list for PBXNativeTarget "SwifterChatTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +546,7 @@
 				7888C9B51C336F5900F49694 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7888C9B61C336F5900F49694 /* Build configuration list for PBXNativeTarget "SwifterChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +555,7 @@
 				7888C9B81C336F5900F49694 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
