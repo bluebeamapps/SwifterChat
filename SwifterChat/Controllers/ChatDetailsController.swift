@@ -15,6 +15,14 @@ class ChatDetailsController : UITableViewController {
         super.viewDidLoad()
         
         tableView.estimatedRowHeight = 100
+        
+        navigationController?.toolbarHidden = false
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        navigationController?.toolbarHidden = true
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

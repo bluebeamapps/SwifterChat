@@ -16,15 +16,15 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <inset key="separatorInset" minX="85" minY="0.0" maxX="0.0" maxY="0.0"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="ChatEntryCell" rowHeight="90" id="A1F-2i-AdC">
-                                <rect key="frame" x="0.0" y="92" width="600" height="90"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="ChatEntryCell" rowHeight="80" id="A1F-2i-AdC">
+                                <rect key="frame" x="0.0" y="92" width="600" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="A1F-2i-AdC" id="mzM-Af-Eac">
-                                    <rect key="frame" x="0.0" y="0.0" width="567" height="89"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="567" height="79"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="John Doe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P1u-86-bwz">
-                                            <rect key="frame" x="84" y="12" width="407" height="21"/>
+                                            <rect key="frame" x="84" y="8" width="407" height="21"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="21" id="kcl-ja-kmD"/>
                                             </constraints>
@@ -33,7 +33,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="UserPlaceholder" translatesAutoresizingMaskIntoConstraints="NO" id="fM0-qq-JeC">
-                                            <rect key="frame" x="8" y="15" width="60" height="60"/>
+                                            <rect key="frame" x="8" y="10" width="60" height="60"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="60" id="Fc2-b8-RhE"/>
                                                 <constraint firstAttribute="width" constant="60" id="hj1-DQ-QJk"/>
@@ -45,13 +45,13 @@
                                             </userDefinedRuntimeAttributes>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Yesterday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jwD-Uo-mvL">
-                                            <rect key="frame" x="499" y="12" width="68" height="18"/>
+                                            <rect key="frame" x="499" y="8" width="68" height="18"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                             <color key="textColor" red="0.58572173120000004" green="0.58570420739999995" blue="0.58571416139999999" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNZ-T5-f0Z">
-                                            <rect key="frame" x="84" y="33" width="483" height="42"/>
+                                            <rect key="frame" x="84" y="29" width="483" height="42"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="42" id="J21-4q-o9U"/>
                                             </constraints>
@@ -67,7 +67,7 @@
                                         <constraint firstItem="gNZ-T5-f0Z" firstAttribute="top" secondItem="P1u-86-bwz" secondAttribute="bottom" id="Mxc-kd-KTn"/>
                                         <constraint firstItem="jwD-Uo-mvL" firstAttribute="trailing" secondItem="mzM-Af-Eac" secondAttribute="trailingMargin" constant="8" id="QMz-ZP-LSS"/>
                                         <constraint firstItem="jwD-Uo-mvL" firstAttribute="leading" secondItem="P1u-86-bwz" secondAttribute="trailing" constant="8" id="RUs-Fb-CXe"/>
-                                        <constraint firstItem="P1u-86-bwz" firstAttribute="top" secondItem="mzM-Af-Eac" secondAttribute="topMargin" constant="4" id="Rda-mW-iVo"/>
+                                        <constraint firstItem="P1u-86-bwz" firstAttribute="top" secondItem="mzM-Af-Eac" secondAttribute="topMargin" id="Rda-mW-iVo"/>
                                         <constraint firstItem="fM0-qq-JeC" firstAttribute="leading" secondItem="mzM-Af-Eac" secondAttribute="leadingMargin" id="TAW-QJ-fFp"/>
                                         <constraint firstItem="fM0-qq-JeC" firstAttribute="centerY" secondItem="mzM-Af-Eac" secondAttribute="centerY" id="TIH-i6-Qyy"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="gNZ-T5-f0Z" secondAttribute="trailing" constant="-8" id="X7h-2c-gf7"/>
@@ -300,6 +300,9 @@
                             <outlet property="delegate" destination="em6-hT-y0G" id="zxl-EX-6OG"/>
                         </connections>
                     </tableView>
+                    <toolbarItems>
+                        <barButtonItem title="Item" id="WUK-PQ-QAb"/>
+                    </toolbarItems>
                     <navigationItem key="navigationItem" title="John Doe" id="7mA-k1-ivU">
                         <barButtonItem key="backBarButtonItem" title="Back" id="Q1F-nl-y2A"/>
                     </navigationItem>
@@ -353,12 +356,18 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="e3M-G2-jIC" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Chats" image="Tabs_Chat" selectedImage="Tabs_Chat_Selected" id="Wmt-vJ-1if"/>
                     <toolbarItems/>
-                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="93d-mR-8NH">
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="93d-mR-8NH">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.99504950495049505" green="0.99009900990099009" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="yWb-tg-vgH">
+                        <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.99504950495049505" green="0.99009900990099009" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                    </toolbar>
                     <connections>
                         <segue destination="qGw-i4-9pM" kind="relationship" relationship="rootViewController" id="OH0-QP-d1y"/>
                     </connections>

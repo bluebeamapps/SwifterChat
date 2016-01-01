@@ -14,7 +14,7 @@ class ContactsController : UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        tableView.rowHeight = 80
+        tableView.rowHeight = 60
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -23,6 +23,9 @@ class ContactsController : UITableViewController {
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("ContactEntryCell")
+        
+        //TODO:
+        let nameLabel = cell?.viewWithTag(30) as! UILabel
         
         return cell!
     }

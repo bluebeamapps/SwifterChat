@@ -14,7 +14,10 @@ class ChatListController : UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        tableView.rowHeight = 90
+        tableView.rowHeight = 80
+        
+        //Fix a glitch where a black shadow is briefly displayed on the top right corner of the nav bar when performing a segue to a different controller.
+        navigationController?.view.backgroundColor = UIColor.whiteColor()
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
