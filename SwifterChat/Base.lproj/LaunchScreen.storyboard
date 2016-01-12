@@ -16,7 +16,65 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KcT-Q3-ILI">
+                                <rect key="frame" x="198" y="198" width="205" height="205"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SwifterChat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iSE-mQ-FDe">
+                                        <rect key="frame" x="31" y="143" width="144" height="37"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="27"/>
+                                        <color key="textColor" red="0.96470588235294119" green="0.25490196078431371" blue="0.15294117647058825" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SwiftIcon" translatesAutoresizingMaskIntoConstraints="NO" id="vjG-Rl-pn8">
+                                        <rect key="frame" x="35" y="11" width="120" height="106"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="106" id="rHa-aN-UeE"/>
+                                            <constraint firstAttribute="width" constant="120" id="zA7-gi-QBd"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="rHa-aN-UeE"/>
+                                                <exclude reference="zA7-gi-QBd"/>
+                                            </mask>
+                                        </variation>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="vjG-Rl-pn8" firstAttribute="top" secondItem="KcT-Q3-ILI" secondAttribute="top" id="B7b-YU-Lbe"/>
+                                    <constraint firstAttribute="trailing" secondItem="vjG-Rl-pn8" secondAttribute="trailing" id="EqQ-Fc-mC5"/>
+                                    <constraint firstItem="iSE-mQ-FDe" firstAttribute="centerX" secondItem="KcT-Q3-ILI" secondAttribute="centerX" id="GVQ-yI-a0E"/>
+                                    <constraint firstItem="iSE-mQ-FDe" firstAttribute="centerX" secondItem="KcT-Q3-ILI" secondAttribute="centerX" id="IcB-pL-rbi"/>
+                                    <constraint firstItem="vjG-Rl-pn8" firstAttribute="leading" secondItem="KcT-Q3-ILI" secondAttribute="leading" constant="35" id="JBh-jt-HBq"/>
+                                    <constraint firstItem="vjG-Rl-pn8" firstAttribute="centerX" secondItem="KcT-Q3-ILI" secondAttribute="centerX" id="MjG-tC-wja"/>
+                                    <constraint firstItem="iSE-mQ-FDe" firstAttribute="centerX" secondItem="vjG-Rl-pn8" secondAttribute="centerX" id="V6P-sT-AMe"/>
+                                    <constraint firstItem="vjG-Rl-pn8" firstAttribute="centerX" secondItem="KcT-Q3-ILI" secondAttribute="centerX" id="Yal-tU-WUn"/>
+                                    <constraint firstAttribute="width" constant="205" id="cvH-I8-a1V"/>
+                                    <constraint firstItem="iSE-mQ-FDe" firstAttribute="top" secondItem="vjG-Rl-pn8" secondAttribute="bottom" constant="26" id="ei7-5X-DMe"/>
+                                    <constraint firstAttribute="trailing" secondItem="vjG-Rl-pn8" secondAttribute="trailing" constant="50" id="gMe-Ty-XDE"/>
+                                    <constraint firstItem="vjG-Rl-pn8" firstAttribute="top" secondItem="KcT-Q3-ILI" secondAttribute="top" constant="11" id="scW-yE-mHB"/>
+                                    <constraint firstItem="vjG-Rl-pn8" firstAttribute="leading" secondItem="KcT-Q3-ILI" secondAttribute="leading" id="tjx-SW-tMd"/>
+                                    <constraint firstAttribute="height" constant="205" id="wqW-Vo-udZ"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="B7b-YU-Lbe"/>
+                                        <exclude reference="EqQ-Fc-mC5"/>
+                                        <exclude reference="MjG-tC-wja"/>
+                                        <exclude reference="Yal-tU-WUn"/>
+                                        <exclude reference="tjx-SW-tMd"/>
+                                        <exclude reference="GVQ-yI-a0E"/>
+                                        <exclude reference="V6P-sT-AMe"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="KcT-Q3-ILI" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="0Wl-En-yyB"/>
+                            <constraint firstItem="KcT-Q3-ILI" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="GTB-O9-FSC"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +82,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="SwiftIcon" width="120" height="106"/>
+    </resources>
 </document>

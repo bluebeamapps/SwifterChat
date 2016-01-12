@@ -16,8 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        //Set the default tab.
+
+        AppDefaults.setUserUID("73cccae6-dd63-47ad-b4fd-d2ebd38f3806")
+        
+        //Set the tab item tint and the default tab.
         let tabController = window!.rootViewController as! UITabBarController
+        
+        tabController.tabBar.tintColor = UIColor(red: 1.0, green: 0.313725, blue: 0.192156, alpha: 1.0)
         
         tabController.selectedIndex = 1
         

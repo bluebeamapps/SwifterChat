@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15C50" minimumToolsVersion="Automatic">
-    <elements/>
+    <entity name="ChatEntry" representedClassName=".ChatEntry" syncable="YES">
+        <attribute name="lastMessage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastMessageDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ChatMessage" representedClassName=".ChatMessage" syncable="YES">
+        <attribute name="isdeleted" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sectionInfo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="uID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uIDChatEntryRef" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uIDOwner" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ChatEntry" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="ChatMessage" positionX="-54" positionY="-9" width="128" height="150"/>
+    </elements>
 </model>

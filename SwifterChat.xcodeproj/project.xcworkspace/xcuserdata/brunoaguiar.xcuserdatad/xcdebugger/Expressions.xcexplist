@@ -10,5 +10,29 @@
             </PersistentString>
          </PersistentStrings>
       </ContextState>
+      <ContextState
+         contextName = "ChatMessageStore.(addEntriesFromJSON in _15AF396C887EB0CC1B5E6ABE5A1A0C8D)(NSArray) throws -&gt; ():ChatMessageStore.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "components.year">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ChatMessagesController.((scrollTableViewToBottom in _41D72A07BE762AFC39EE0502FE972D5B)(ChatMessagesController) -&gt; (Bool) -&gt; ()).(closure #1):ChatMessagesController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ChatEntryStore.(addEntriesFromJSON in _151F595335D4186C212A3DD1F18D1708)(NSArray) throws -&gt; ():ChatEntryStore.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "chatEntry.lastMessageDate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
    </ContextStates>
 </VariablesViewState>

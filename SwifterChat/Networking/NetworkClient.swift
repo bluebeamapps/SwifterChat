@@ -14,7 +14,7 @@ class NetworkClient {
     
     var identifier: Int?
     
-    var defaultHost = "www.mocky.io/v2"
+    var defaultHost = "www.mocky.io/v2/"
     
     func httpGet(var host: String?, path: String!, callback: (data: NSData?, response: NSHTTPURLResponse?, error: NSError?) -> Void) {
         
