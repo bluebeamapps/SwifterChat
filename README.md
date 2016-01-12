@@ -1,3 +1,3 @@
 # SwifterChat
 
-A mocked chat application written in Swift
+A prototype chat application written in Swift
